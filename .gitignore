@@ -1,0 +1,10 @@
+# Local / tooling ignores (not shipped in the wp.org zip — see .distignore).
+.DS_Store
+Thumbs.db
+*.log
+.phpunit.result.cache
+phpunit.phar
+vendor/
+node_modules/
+.idea/
+.vscode/

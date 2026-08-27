@@ -1,0 +1,14 @@
+# Files excluded from the WordPress.org / distribution zip.
+.git
+.gitignore
+.gitattributes
+.github
+.wordpress-org
+.distignore
+node_modules
+vendor
+phpcs.xml.dist
+phpstan.neon.dist
+composer.lock
+tests
+*.md
