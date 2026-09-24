@@ -1,5 +1,5 @@
 === AI Provider for Voyage AI ===
-Contributors: iamkingsleyf, kraftysprouts
+Contributors: iamkingsleyf, kraftysproutsmedia
 Tags: ai, voyage, embeddings, semantic search, vector search
 Requires at least: 7.1
 Tested up to: 7.1
