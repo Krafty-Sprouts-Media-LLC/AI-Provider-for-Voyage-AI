@@ -16,6 +16,11 @@ namespace KraftySprouts\AiProviderForVoyageAi\Http;
 
 use WP_Error;
 
+// If this file is called directly, abort.
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
 /**
  * Class VoyageEmbeddingsClient
  *

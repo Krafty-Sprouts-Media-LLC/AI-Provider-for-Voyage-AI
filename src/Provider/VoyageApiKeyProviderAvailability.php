@@ -16,6 +16,11 @@ use WordPress\AiClient\Providers\Http\Contracts\WithRequestAuthenticationInterfa
 use WordPress\AiClient\Providers\Http\DTO\ApiKeyRequestAuthentication;
 use WordPress\AiClient\Providers\Http\Traits\WithRequestAuthenticationTrait;
 
+// If this file is called directly, abort.
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
 /**
  * Class VoyageApiKeyProviderAvailability
  *
