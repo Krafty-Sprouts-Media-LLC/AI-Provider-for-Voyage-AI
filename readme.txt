@@ -27,6 +27,19 @@ It is not tied to any other commercial plugin. Any theme, plugin, or custom code
 
 * PHP 7.4 or higher
 * WordPress 7.1 or higher (first version with AI Client embedding support)
+* A Voyage AI account and API key
+
+This plugin is not affiliated with, endorsed by, or sponsored by Voyage AI or MongoDB, Inc. "Voyage AI" is used only to identify the third-party service this plugin connects to.
+
+== External services ==
+
+This plugin connects to the [Voyage AI](https://www.voyageai.com/) embeddings API to turn text into embedding vectors. It is required for the plugin to do anything; without a Voyage AI API key the provider stays unavailable and no requests are made.
+
+* **Endpoint:** `https://api.voyageai.com/v1/embeddings`
+* **When data is sent:** only when a theme, plugin, or custom code on your site requests an embedding through the WordPress AI Client using the Voyage AI provider. The plugin makes no requests on its own, on activation, or in the background.
+* **What is sent:** the text inputs to embed, the selected model name, any requested output dimension or extra options passed by the calling code, and your Voyage AI API key (as a bearer token in the request header). No other site or visitor data is sent by this plugin.
+
+The service is provided by Voyage AI. Please review their [Terms of Service](https://www.voyageai.com/tos) and [Privacy Policy](https://www.voyageai.com/privacy).
 
 == Installation ==
 

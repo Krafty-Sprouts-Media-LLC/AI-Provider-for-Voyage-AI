@@ -11,4 +11,6 @@ phpcs.xml.dist
 phpstan.neon.dist
 composer.lock
 tests
+phpunit.xml.dist
+docs
 *.md
