@@ -64,7 +64,7 @@ class VoyageProvider extends AbstractApiProvider {
 			esc_html(
 				sprintf(
 					/* translators: %s: comma-separated model capability names. */
-					__( 'Unsupported model capabilities: %s', 'ai-provider-for-voyage-ai' ),
+					__( 'Unsupported model capabilities: %s', 'krafty-sprouts-ai-provider-for-voyage-ai' ),
 					implode( ', ', $capabilities )
 				)
 			)
@@ -83,7 +83,7 @@ class VoyageProvider extends AbstractApiProvider {
 			ProviderTypeEnum::cloud(),
 			'https://dashboard.voyageai.com/organization/api-keys',
 			RequestAuthenticationMethod::apiKey(),
-			__( 'Text embeddings with voyage-4, voyage-3.5, voyage-code-3, and other Voyage AI models.', 'ai-provider-for-voyage-ai' )
+			__( 'Text embeddings with voyage-4, voyage-3.5, voyage-code-3, and other Voyage AI models.', 'krafty-sprouts-ai-provider-for-voyage-ai' )
 		);
 	}
 

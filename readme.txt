@@ -1,4 +1,4 @@
-=== AI Provider for Voyage AI ===
+=== Krafty Sprouts AI Provider for Voyage AI ===
 Contributors: iamkingsleyf, kraftysproutsmedia
 Tags: ai, voyage, embeddings, semantic search, vector search
 Requires at least: 7.1
@@ -12,7 +12,7 @@ Standalone Voyage AI text-embedding provider for the WordPress AI Client.
 
 == Description ==
 
-AI Provider for Voyage AI is a **standalone** WordPress plugin. It integrates [Voyage AI](https://www.voyageai.com/) with the WordPress [AI Client](https://developer.wordpress.org/reference/functions/wp_ai_client_prompt/) and [Connectors](https://make.wordpress.org/core/2026/03/18/introducing-the-connectors-api-in-wordpress-7-0/) APIs.
+Krafty Sprouts AI Provider for Voyage AI is a **standalone** WordPress plugin. It integrates [Voyage AI](https://www.voyageai.com/) with the WordPress [AI Client](https://developer.wordpress.org/reference/functions/wp_ai_client_prompt/) and [Connectors](https://make.wordpress.org/core/2026/03/18/introducing-the-connectors-api-in-wordpress-7-0/) APIs.
 
 It is not tied to any other commercial plugin. Any theme, plugin, or custom code that uses `AiClient::input(...)->generateEmbedding()` can use Voyage once this provider is active and an API key is configured.
 
@@ -43,7 +43,7 @@ The service is provided by Voyage AI. Please review their [Terms of Service](htt
 
 == Installation ==
 
-1. Upload the plugin to `/wp-content/plugins/ai-provider-for-voyage-ai`, or install it via **Plugins → Add New**.
+1. Upload the plugin to `/wp-content/plugins/krafty-sprouts-ai-provider-for-voyage-ai`, or install it via **Plugins → Add New**.
 2. Activate the plugin.
 3. Go to **Settings → Connectors** and add your Voyage AI API key (get one at https://dashboard.voyageai.com/organization/api-keys).
 

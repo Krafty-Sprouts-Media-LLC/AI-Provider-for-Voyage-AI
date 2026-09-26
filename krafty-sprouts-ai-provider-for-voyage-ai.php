@@ -1,7 +1,7 @@
 <?php
 /**
- * Plugin Name:       AI Provider for Voyage AI
- * Plugin URI:        https://wordpress.org/plugins/ai-provider-for-voyage-ai/
+ * Plugin Name:       Krafty Sprouts AI Provider for Voyage AI
+ * Plugin URI:        https://wordpress.org/plugins/krafty-sprouts-ai-provider-for-voyage-ai/
  * Description:       Voyage AI text-embedding provider for the WordPress AI Client (voyage-4, voyage-3.5, voyage-code-3, and related models).
  * Version:           1.0.0
  * Requires at least: 7.1
@@ -10,7 +10,7 @@
  * Author URI:        https://kraftysprouts.com
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
- * Text Domain:       ai-provider-for-voyage-ai
+ * Text Domain:       krafty-sprouts-ai-provider-for-voyage-ai
  * Domain Path:       /languages
  *
  * @package KraftySprouts\AiProviderForVoyageAi

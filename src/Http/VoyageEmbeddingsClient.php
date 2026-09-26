@@ -67,14 +67,14 @@ class VoyageEmbeddingsClient {
 		if ( '' === trim( $api_key ) ) {
 			return new WP_Error(
 				'aipfva_voyage_no_key',
-				__( 'Voyage AI API key is not configured.', 'ai-provider-for-voyage-ai' )
+				__( 'Voyage AI API key is not configured.', 'krafty-sprouts-ai-provider-for-voyage-ai' )
 			);
 		}
 
 		if ( array() === $texts ) {
 			return new WP_Error(
 				'aipfva_voyage_no_inputs',
-				__( 'At least one input text is required.', 'ai-provider-for-voyage-ai' )
+				__( 'At least one input text is required.', 'krafty-sprouts-ai-provider-for-voyage-ai' )
 			);
 		}
 
@@ -83,7 +83,7 @@ class VoyageEmbeddingsClient {
 				'aipfva_voyage_too_many_inputs',
 				sprintf(
 					/* translators: %d: maximum number of inputs Voyage accepts per request. */
-					__( 'Voyage AI accepts at most %d inputs per request.', 'ai-provider-for-voyage-ai' ),
+					__( 'Voyage AI accepts at most %d inputs per request.', 'krafty-sprouts-ai-provider-for-voyage-ai' ),
 					self::MAX_INPUTS
 				)
 			);
@@ -104,7 +104,7 @@ class VoyageEmbeddingsClient {
 					'aipfva_voyage_option_conflict',
 					sprintf(
 						/* translators: %s: custom option key. */
-						__( 'The custom option "%s" conflicts with an existing parameter.', 'ai-provider-for-voyage-ai' ),
+						__( 'The custom option "%s" conflicts with an existing parameter.', 'krafty-sprouts-ai-provider-for-voyage-ai' ),
 						$key
 					)
 				);
@@ -144,7 +144,7 @@ class VoyageEmbeddingsClient {
 			if ( '' === $message ) {
 				$message = sprintf(
 					/* translators: %d: HTTP status code. */
-					__( 'Voyage AI HTTP error %d', 'ai-provider-for-voyage-ai' ),
+					__( 'Voyage AI HTTP error %d', 'krafty-sprouts-ai-provider-for-voyage-ai' ),
 					$code
 				);
 			}
@@ -161,7 +161,7 @@ class VoyageEmbeddingsClient {
 		if ( ! is_array( $data ) || ! isset( $data['data'] ) || ! is_array( $data['data'] ) ) {
 			return new WP_Error(
 				'aipfva_voyage_bad_json',
-				__( 'Voyage AI returned an unexpected response body.', 'ai-provider-for-voyage-ai' )
+				__( 'Voyage AI returned an unexpected response body.', 'krafty-sprouts-ai-provider-for-voyage-ai' )
 			);
 		}
 
