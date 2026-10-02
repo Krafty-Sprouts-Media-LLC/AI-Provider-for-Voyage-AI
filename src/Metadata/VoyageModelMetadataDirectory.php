@@ -84,7 +84,7 @@ class VoyageModelMetadataDirectory implements ModelMetadataDirectoryInterface {
 			esc_html(
 				sprintf(
 					/* translators: %s: Voyage AI model id. */
-					__( 'Unknown Voyage AI model: %s', 'krafty-sprouts-ai-provider-for-voyage-ai' ),
+					__( 'Unknown Voyage AI model: %s', 'ai-provider-for-voyage-ai' ),
 					$modelId
 				)
 			)

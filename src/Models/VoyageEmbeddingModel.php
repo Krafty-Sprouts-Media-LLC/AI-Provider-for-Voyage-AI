@@ -84,7 +84,7 @@ class VoyageEmbeddingModel extends AbstractApiBasedModel implements EmbeddingGen
 					esc_html(
 						sprintf(
 							/* translators: %d: zero-based input index. */
-							__( 'Voyage AI embedding input %d must be text; file/image inputs are not supported.', 'krafty-sprouts-ai-provider-for-voyage-ai' ),
+							__( 'Voyage AI embedding input %d must be text; file/image inputs are not supported.', 'ai-provider-for-voyage-ai' ),
 							$index
 						)
 					)
@@ -129,7 +129,7 @@ class VoyageEmbeddingModel extends AbstractApiBasedModel implements EmbeddingGen
 				esc_html(
 					sprintf(
 						/* translators: 1: number of inputs sent, 2: number of embeddings returned. */
-						__( 'Voyage AI returned %2$d embedding(s) for %1$d input(s).', 'krafty-sprouts-ai-provider-for-voyage-ai' ),
+						__( 'Voyage AI returned %2$d embedding(s) for %1$d input(s).', 'ai-provider-for-voyage-ai' ),
 						$expected_count,
 						count( $rows )
 					)
@@ -153,7 +153,7 @@ class VoyageEmbeddingModel extends AbstractApiBasedModel implements EmbeddingGen
 		foreach ( $rows as $row ) {
 			if ( ! isset( $row['embedding'] ) || ! is_array( $row['embedding'] ) ) {
 				throw new ResponseException(
-					esc_html( __( 'Voyage AI response row is missing an embedding vector.', 'krafty-sprouts-ai-provider-for-voyage-ai' ) )
+					esc_html( __( 'Voyage AI response row is missing an embedding vector.', 'ai-provider-for-voyage-ai' ) )
 				);
 			}
 

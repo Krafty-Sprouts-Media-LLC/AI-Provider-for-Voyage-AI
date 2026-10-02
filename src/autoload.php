@@ -1,6 +1,6 @@
 <?php
 /**
- * PSR-4 style autoloader for Krafty Sprouts AI Provider for Voyage AI.
+ * PSR-4 style autoloader for AI Provider for Voyage AI.
  *
  * @package KraftySprouts\AiProviderForVoyageAi
  * @since   1.0.0

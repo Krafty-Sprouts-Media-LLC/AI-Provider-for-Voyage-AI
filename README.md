@@ -1,4 +1,4 @@
-# Krafty Sprouts AI Provider for Voyage AI
+# AI Provider for Voyage AI
 
 Standalone WordPress plugin that registers [Voyage AI](https://www.voyageai.com/) as a text-embedding provider for the WordPress AI Client (`AiClient::input(...)->generateEmbedding()`), introduced in WordPress 7.1.
 
